@@ -1,0 +1,29 @@
+{
+  "name": "rollupconfig",
+  "version": "1.0.0",
+  "main": "build/commonjs/index.js",
+  "module": "build/es/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup --config",
+    "start": "rollup --config --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@rollup/plugin-babel": "^5.0.0",
+    "@rollup/plugin-typescript": "^4.1.1",
+    "@types/lodash": "^4.14.152",
+    "@types/preval.macro": "^3.0.0",
+    "babel-plugin-macros": "^2.8.0",
+    "preval.macro": "^5.0.0",
+    "rollup": "^2.10.5",
+    "rollup-plugin-postcss": "^3.1.1",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.9.4",
+    "lodash": "^4.17.15"
+  }
+}
