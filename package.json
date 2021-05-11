@@ -24,6 +24,6 @@
   },
   "dependencies": {
     "@babel/preset-react": "^7.9.4",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   }
 }
